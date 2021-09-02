@@ -12,5 +12,6 @@ Script to pull character stats from the game into individual files
   cd into your main/scripts in commandline.
   run -> "pip install -r requirements.txt"
   
-  then run "python create.py" to create the text files needed.
-  then run "python stats.py" to use the script.
+  Run "python create.py" to create the text files needed.
+  
+  Run "python stats.py" to use the script.
