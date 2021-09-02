@@ -1,4 +1,4 @@
-# ff13stats
+# Final Fantasy 13 Stats
 Script to pull character stats from the game into individual files
 
 
