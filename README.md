@@ -5,8 +5,8 @@ Script to pull character stats from the game into individual files
 ## Basic directory setup
     
     Main Dir
-      -> Scripte (store scripts here)
-      -> Files (for the text files)
+      -> scripte (store scripts here)
+      -> files (for the text files)
      
 ## Using the script
   cd into your main/scripts in commandline.
