@@ -1,17 +1,9 @@
 # Final Fantasy 13 Stats
 Script to pull character stats from the game into individual files
-
-
-## Basic directory setup
-    
-    Main Dir
-      -> scripte (store scripts here)
-      -> files (for the text files)
-     
+   
 ## Using the script
-  cd into your main/scripts in commandline.
+  cd into the directory you have stored the script in your terminal.
   run -> "pip install -r requirements.txt"
   
-  Run "python create.py" to create the text files needed.
-  
-  Run "python stats.py" to use the script.
+  Run "python stats.py" and it will create the nessecary directories and files then run.
+  All following runs with run the script using the files it created on it's first runtime.
