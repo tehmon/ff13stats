@@ -1,5 +1,7 @@
 # Final Fantasy 13 Stats
-Script to pull character stats from the game into individual files
+Script to pull character stats from the game into individual files.
+
+Works with both Steam and Gamepass. No changes need to be made between the game. Works straight away with both.
    
 ## Using the script
   cd into the directory you have stored the script in your terminal.
