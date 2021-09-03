@@ -4,14 +4,24 @@ import pymem
 
 pm = pymem.Pymem("ffxiiiimg.exe")
 b_address = pm.base_address
-char_base = {
+try:
+    char_base = {
+                "sazh": pm.read_int(b_address+0x28BF608), 
+                "snow": pm.read_int(b_address+0x28BF638), 
+                "fang": pm.read_int(b_address+0x28BF590), 
+                "hope": pm.read_int(b_address+0x28BF5C0) ,
+                "vanille": pm.read_int(b_address+0x28BF650) , 
+                "lightning": pm.read_int(b_address+0x28BF5F0)
+                }
+except:
+    char_base = {
                 "sazh": pm.read_int(b_address+0x2402DA8), 
                 "snow": pm.read_int(b_address+0x2402DD8), 
                 "fang": pm.read_int(b_address+0x2402D30), 
                 "hope": pm.read_int(b_address+0x2402D60) ,
                 "vanille": pm.read_int(b_address+0x2402DF0) , 
                 "lightning": pm.read_int(b_address+0x2402D90)
-            }
+                }
 offsets = {"hp": 0xDB8 , "str": 0xDC8 , "mag": 0xDCC}
 files_in_dir = []
 
